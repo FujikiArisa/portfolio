@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fujiki's Portfolio</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito:wght@200..1000&family=Courgette&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--========== header ==========-->
+    <header class="position-relative">
+        <!-- background image -->
+        <!-- <img src="/assets/images/cover/bg-color.svg" alt="" class="bg position-absolute top-0 left-0"> -->
+
+        <!-- navigation -->
+        <nav>
+            <ul
+                class="list-unstyled d-flex justify-content-evenly justify-content-lg-end align-items-center position-fixed bg-white w-100 my-0 mx-auto pe-lg-5">
+                <li>
+                    <a href="#skills" class="text-dark">
+                        My Skills
+                    </a>
+                </li>
+                <li>
+                    <a href="#works" class="text-dark">
+                        My Works
+                    </a>
+                </li>
+                <li>
+                    <a href="#other" class="text-dark">
+                        Other Works
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="text-dark">
+                        About Me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- title -->
+        <h1 class="position-absolute text-white mb-0">
+            <p class="mb-0">Fujiki Arisa</p>
+            <p class="mb-0">Portfolio</p>
+            <span class="mb-0">藤木有彩のポートフォリオサイト</span>
+        </h1>
+
+        <!-- illust & arrow -->
+        <img src="/assets/images/cover/cover.svg" alt="" class="illust position-absolute">
+        <a href="#skills"><img src="/assets/images/cover/arrow.svg" alt=""
+                class="arrow position-absolute d-inline-block m-auto"></a>
+    </header>
+
+    <!--========== skill ==========-->
+    <main>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p class="text-center mb-0">扱えるツール</p>
+
+            <ul class="list-unstyled mx-auto mb-0">
+                <!-- design -->
+                <li class="bg-white">
+                    <figure class="d-flex flex-column flex-lg-row mb-0">
+                        <div class="d-flex justify-content-evenly align-items-center">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="/assets/images/skills/img_photo.svg" alt="" class="icon">
+                                <p class="text-center mb-0">Photoshop</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="/assets/images/skills/img_illust.svg" alt="" class="icon">
+                                <p class="text-center mb-0">Illustrator</p>
+                            </div>
+                        </div>
+
+                        <figcaption class="d-flex flex-column justify-content-between">
+                            <h3>Design</h3>
+                            <div>
+                                <p class="mb-0">主にグラフィックやロゴデザイン、UIなどを制作しています。</p>
+                                <p class="mb-0">ターゲティングを常に意識しながらデザインしています。</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <!-- front end -->
+                <li class="bg-white">
+                    <figure class="d-flex flex-column flex-lg-row mb-0">
+                        <div class="d-flex justify-content-evenly align-items-center">
+                            <div>
+                                <img src="/assets/images/skills/img_html.svg" alt="" class="icon">
+                                <p class="text-center mb-0">HTML</p>
+                            </div>
+                            <div>
+                                <img src="/assets/images/skills/img_css.svg" alt="" class="icon">
+                                <p class="text-center mb-0">CSS</p>
+                            </div>
+                            <div>
+                                <img src="/assets/images/skills/img_sass.svg" alt="" class="icon">
+                                <p class="text-center mb-0">SASS</p>
+                            </div>
+                        </div>
+
+                        <figcaption class="d-flex flex-column justify-content-between">
+                            <h3>Front-End</h3>
+                            <div>
+                                <p class="mb-0">誰でも見やすいコードになるように心掛けてコーディングしています。</p>
+                                <p class="mb-0">複雑なサイトではSassも活用しています。</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <!-- back end -->
+                <li class="bg-white">
+                    <figure class="d-flex flex-column flex-lg-row mb-0">
+                        <div class="d-flex justify-content-evenly align-items-center">
+                            <div>
+                                <img src="/assets/images/skills/img_php.svg" alt="" class="icon">
+                                <p class="text-center mb-0">PHP</p>
+                            </div>
+                            <div>
+                                <img src="/assets/images/skills/img_laravel.svg" alt="" class="icon">
+                                <p class="text-center mb-0">Laravel</p>
+                            </div>
+                        </div>
+
+                        <figcaption class="d-flex flex-column justify-content-between">
+                            <h3>Back-End</h3>
+                            <div>
+                                <p class="mb-0">シンプルな入力フォームやwebアプリなどを制作しました。</p>
+                                <p class="mb-0">Laravelなどのフレームワークを使いながら勉強中です。</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <!--========== works ==========-->
+        <section id="works">
+            <h2>My Works</h2>
+            <p class="text-center mb-0">サイト一覧</p>
+            <dl class="login mx-auto">
+                <div>
+                    <dt class="d-inline-block">メールアドレス…</dt>
+                    <dd class="d-inline">test@example.com</dd>
+                </div>
+                <div>
+                    <dt class="d-inline-block">パスワード…</dt>
+                    <dd class="d-inline">password</dd>
+                </div>
+            </dl>
+
+            <div class="d-flex flex-wrap justify-content-between mx-auto flex-column flex-lg-row">
+                <!-- dream diary -->
+                <figure>
+                    <div class="position-relative">
+                        <a href="#" class="preview"><img src="assets/images/works/img_04.png" alt=""></a>
+                        <a href="https://github.com/FujikiArisa/dream-diary" class="github"><img
+                                src="/assets/images/works/github.svg" alt=""></a>
+                    </div>
+
+                    <figcaption>
+                        <div class="bg-white">
+                            <h3 class="mb-0">ゆめにっき</h3>
+                            <p>webアプリ</p>
+                            <dl>
+                                <div>
+                                    <dt class="d-inline-block">使用技術</dt>
+                                    <dd class="d-inline">HTML/CSS/PHP/Laravel</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">使用ツール</dt>
+                                    <dd class="d-inline">Illustrator</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">制作期間</dt>
+                                    <dd class="d-inline">約3ヶ月</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <!-- mipig -->
+                <figure>
+                    <div class="position-relative">
+                        <a href="https://mipig.netlify.app/" class="preview">
+                            <img src="assets/images/works/img_02.png" alt="">
+                            <span
+                                class="open w-100 h-100 position-absolute top-0 end-0 d-flex justify-content-center align-items-center text-white">OPEN</span>
+                        </a>
+                        <a href="https://github.com/FujikiArisa/mipig" class="github">
+                            <img src="/assets/images/works/github.svg" alt="">
+                        </a>
+                    </div>
+
+                    <figcaption>
+                        <div class="bg-white">
+                            <h3 class="mb-0">mipig</h3>
+                            <p>ホームページ</p>
+                            <dl>
+                                <div>
+                                    <dt class="d-inline-block">使用技術</dt>
+                                    <dd class="d-inline">HTML/CSS/SASS</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">使用ツール</dt>
+                                    <dd class="d-inline">Illustrator</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">制作期間</dt>
+                                    <dd class="d-inline">約2ヶ月</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <!-- ete online store -->
+                <figure>
+                    <div class="position-relative">
+                        <a href="https://ete-online-original.netlify.app/" class="preview">
+                            <img src="assets/images/works/img_01.png" alt="">
+                            <span
+                                class="open w-100 h-100 position-absolute top-0 end-0 d-flex justify-content-center align-items-center text-white">OPEN</span>
+                        </a>
+                        <a href="https://github.com/FujikiArisa/ete-online-original" class="github">
+                            <img src="/assets/images/works/github.svg" alt="">
+                        </a>
+                    </div>
+
+                    <figcaption>
+                        <div class="bg-white">
+                            <h3 class="mb-0">ete ONLINE STORE</h3>
+                            <p>ホームページ</p>
+                            <dl>
+                                <div>
+                                    <dt class="d-inline-block">使用技術</dt>
+                                    <dd class="d-inline">HTML/CSS</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">使用ツール</dt>
+                                    <dd class="d-inline">Illustrator</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">制作期間</dt>
+                                    <dd class="d-inline">約1ヶ月</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <!-- todo list -->
+                <figure>
+                    <div class="position-relative">
+                        <a href="#" class="preview"><img src="assets/images/works/img_05.png" alt=""></a>
+                        <a href="https://github.com/FujikiArisa/todo" class="github"><img
+                                src="/assets/images/works/github.svg" alt=""></a>
+                    </div>
+
+                    <figcaption>
+                        <div class="bg-white">
+                            <h3 class="mb-0">ToDoリスト</h3>
+                            <p>webアプリ</p>
+                            <dl>
+                                <div>
+                                    <dt class="d-inline-block">使用技術</dt>
+                                    <dd class="d-inline">HTML/CSS/PHP/Laravel</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">使用ツール</dt>
+                                    <dd class="d-inline">Illustrator</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">制作期間</dt>
+                                    <dd class="d-inline">約1ヶ月</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <!-- el commun -->
+                <figure class="position-relative">
+                    <div>
+                        <a href="https://elcommun-pointnote.netlify.app/" class="preview">
+                            <img src="assets/images/works/img_03.png" alt="">
+                            <span
+                                class="open w-100 h-100 position-absolute top-0 end-0 d-flex justify-content-center align-items-center text-white">OPEN</span>
+                        </a>
+                        <a href="https://github.com/FujikiArisa/mipig" class="github">
+                            <img src="/assets/images/works/github.svg" alt="">
+                        </a>
+                    </div>
+
+                    <figcaption>
+                        <div class="bg-white">
+                            <h3 class="mb-0">EL COMMUN</h3>
+                            <p>LP</p>
+                            <dl>
+                                <div>
+                                    <dt class="d-inline-block">使用技術</dt>
+                                    <dd class="d-inline">HTML/CSS</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">使用ツール</dt>
+                                    <dd class="d-inline">Illustrator</dd>
+                                </div>
+                                <div>
+                                    <dt class="d-inline-block">制作期間</dt>
+                                    <dd class="d-inline">約1ヶ月</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!--========== other works ==========-->
+        <section id="other">
+            <h2>Other Works</h2>
+            <p class="text-center mb-0">3DCGの制作物</p>
+
+            <ul class="list-unstyled mx-auto d-flex flex-column flex-lg-row mb-0">
+                <li>
+                    <img src="/assets/images/otherworks/img_01.png" alt="">
+                    <h3 class="mb-0">ニューヨークのアパート</h3>
+                </li>
+                <li>
+                    <img src="/assets/images/otherworks/img_02.png" alt="">
+                    <h3 class="mb-0">カナダの街並み</h3>
+                </li>
+                <li>
+                    <img src="/assets/images/otherworks/img_03.png" alt="">
+                    <h3 class="mb-0">パリの路地裏</h3>
+                </li>
+            </ul>
+        </section>
+
+        <!--========== about me ==========-->
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="text-center mb-0">私について</p>
+
+            <div class="mx-auto d-flex justify-content-between align-items-center flex-column-reverse flex-lg-row">
+                <ul class="list-unstyled">
+                    <li class="d-flex">
+                        <time datetime="2009-05">2009.05</time>
+                        <div class="timeline-content">
+                            <p class="mb-0">ピアノと書道を習い始める。(現在も継続中)</p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <time datetime="2015-04">2015.04</time>
+                        <div class="timeline-content">
+                            <p class="mb-0">中学校に入学。</p>
+                            <p class="mb-0">得意教科は美術・音楽・技術(プログラミング)。</p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <time datetime="2018-04">2018.04</time>
+                        <div class="timeline-content">
+                            <p class="mb-0">高校に入学。</p>
+                            <p class="mb-0">コロナ禍で休校が続き、映画鑑賞や動画制作などに没頭する。</p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <time datetime="2021-04">2021.04</time>
+                        <div class="timeline-content">
+                            <p class="mb-0">専門学校福岡デザイナー・アカデミーに入学。</p>
+                            <p class="mb-0">2年間3DCGを勉強したのち、2024年度ではweb制作を勉強する。</p>
+                        </div>
+                    </li>
+                </ul>
+                <img src="/assets/images/about/img_01.png" alt="">
+            </div>
+        </section>
+
+        <!--========== footer ==========-->
+        <footer class="text-white">
+            <div class="position-relative mx-auto">
+                <h2 class="text-start">Contact</h2>
+                <p class="mx-auto mb-0">fujiki030612@gmail.com</p>
+                <a href="https://github.com/FujikiArisa" class="position-absolute end-0 bottom-0 rounded-circle">
+                    <img src="/assets/images/common/github.svg" alt="" class="rounded-circle">
+                </a>
+            </div>
+            <h6 class="text-center mb-0 fs-5">©︎2024 fujiki arisa. All Rights Reserved.</h6>
+        </footer>
+    </main>
+</body>
+
+</html>
