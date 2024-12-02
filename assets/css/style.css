@@ -263,6 +263,10 @@ header .arrow {
     display: inline-block;
 }
 
+#works .preview.unfinished {
+    pointer-events: none;
+}
+
 /* OPENボタン */
 
 #works .preview .open {
