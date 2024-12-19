@@ -55,7 +55,7 @@ header {
 /* ナビゲーション */
 
 header ul {
-    gap: 4em;
+    gap: 3em;
     z-index: 9999;
     height: 5.5rem;
     box-shadow: var(--box-shadow);
@@ -63,7 +63,7 @@ header ul {
 
 header a {
     text-decoration: none;
-    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    font-size: clamp(1.4rem, 3vw, 2rem);
 }
 
 header nav a:hover {
@@ -188,10 +188,6 @@ header .arrow {
     opacity: 1;
 }
 
-#works .preview.unfinished {
-    pointer-events: none;
-}
-
 /* githubのボタン */
 
 #works .github img {
@@ -219,7 +215,7 @@ header .arrow {
 /* サイトの種類 */
 
 #works figure p {
-    color: #999999;
+    color: #999;
     margin-block-end: .5rem;
 }
 
@@ -228,7 +224,6 @@ header .arrow {
 #works .detail {
     display: flex;
     flex-direction: column;
-    
 }
 
 #works .detail dt {
@@ -245,10 +240,59 @@ header .arrow {
     letter-spacing: .1em;
 }
 
+/*======= in progress =======*/
+
+#progress {
+    background-color: var(--bg-color);
+}
+
+#progress h3 {
+    font-size: clamp(1.6rem, 2vw, 2rem)
+}
+
+#progress p {
+    color: #999;
+}
+
+#progress>ul {
+    width: 70vw;
+}
+
+#progress>ul>li {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    padding: 6rem 4rem;
+    border-radius: 10px;
+}
+
+#progress>ul>li:nth-child(n+2) {
+    margin-block-start: 10rem;
+}
+
+#progress div {
+    margin-block-start: 3rem;
+}
+
+#progress .pc .cover {
+    width: 60%;
+}
+
+#progress .sp .cover {
+    width: 30%;
+    height: auto;
+}
+
+#progress>ul>li>.d-flex {
+    gap: 4rem;
+}
+
+#progress .detail li{
+    width: 32%;
+}
+
 /*======= other works =======*/
 
 #other {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-sub);
 }
 
 #other ul {
@@ -264,7 +308,7 @@ header .arrow {
 /*======= about =======*/
 
 #about {
-    background-color: var(--bg-color-sub);
+    background-color: var(--bg-color);
 }
 
 #about>div {
@@ -351,6 +395,7 @@ footer h6 {
 
 
 @media screen and (max-width: 992px) {
+
     /* header */
     header {
         height: 60vh;
@@ -411,6 +456,45 @@ footer h6 {
         opacity: 0;
     }
 
+    /* in progress */
+
+    #progress > ul {
+        width: 88vw;
+    }
+
+    #progress > ul > li {
+        padding: 4rem 2rem;
+    }
+
+    #progress .pc .cover {
+        width: 80%;
+    }
+    
+    #progress .sp .cover {
+        width: 40%;
+        height: auto;
+    }
+
+    #progress .detail li:last-child{
+        display: none;
+    }
+
+    #progress .detail li{
+        width: 47%;
+    }
+
+    #progress div {
+        margin-block-start: 2rem;
+    }
+
+    #progress>ul>li>.d-flex {
+        gap: 2rem;
+    }
+
+    #progress>ul>li:nth-child(n+2) {
+        margin-block-start: 6rem;
+    }
+
     /* other works */
 
     #other ul {
@@ -432,8 +516,8 @@ footer h6 {
     }
 
     #about img {
-    padding-inline-start: 0;
-    padding-block-end: 2rem;
-    width: 250px;
+        padding-inline-start: 0;
+        padding-block-end: 2rem;
+        width: 250px;
     }
 }
